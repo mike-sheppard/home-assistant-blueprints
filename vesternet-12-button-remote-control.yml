@@ -1,14 +1,13 @@
 blueprint:
   name: Vesternet 12 Button Remote Control
-  description: 'Blueprint for the Vesternet 12 Button Remote Control
+  description: 'All oval buttons (1-4, S1 and S2) can be connected to any action. The main on (1) and off (0) buttons will activate all on/off buttons 1-4 together.
+    Supports: short button clicks and long button presses (over 4 seconds).
 
-    It is for general use so all oval buttons (1-4, S1 and S2) can be connected to any action of your choice. The (1) and (0) button will activate button 1 till 4 is a sequence.
-    This remote supports short button clicks and long button presses (over 4 seconds)
-
-    Make sure to select the correct sensor for the remote.
+    Very minor tweak of the original Blueprint by Bart Eversdijk: https://github.com/Bekkie/ha-blueprints/blob/main/automation/robb-smarrt-4-ch-remote-ROB_200-024-0.yaml
+    Only change is model: ZGRC-KEY-013
     '
   domain: automation
-  author: Mike Sheppard
+  author: Mike Sheppard (Original by Bart Eversdijk)
   source_url: https://github.com/mike-sheppard/home-assistant-blueprints/blob/main/vesternet-12-button-remote-control.yml
   input:
     remote:
